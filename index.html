@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Campo à Mesa: A Jornada do Morango</title>
-      <link rel="icon" href="morango.png">
+    <title>Fome no Brasil: Um Problema Social Urgente</title>
+    <link rel="icon" href="comida.png">
     <style>
         * {
             box-sizing: border-box;
@@ -12,7 +12,7 @@
         }
         
         body {
-            background-color: #fce4ec;
+            background-color: #fff8e1;
             margin: 0;
             padding: 0;
             color: #333;
@@ -26,7 +26,7 @@
         }
         
         header {
-            background-color: #e91e63;
+            background-color: #e64a19;
             color: white;
             padding: 30px 0;
             text-align: center;
@@ -39,7 +39,7 @@
             font-size: 2.5rem;
         }
         
-        .strawberry-icon {
+        .food-icon {
             font-size: 3rem;
             margin-bottom: 15px;
             display: block;
@@ -54,7 +54,7 @@
         }
         
         .intro h2 {
-            color: #e91e63;
+            color: #e64a19;
             margin-top: 0;
         }
         
@@ -147,13 +147,13 @@
         }
         
         .site-card h3 {
-            color: #e91e63;
+            color: #e64a19;
             margin-top: 0;
         }
         
         .site-card a {
             display: inline-block;
-            background-color: #e91e63;
+            background-color: #e64a19;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
@@ -163,7 +163,7 @@
         }
         
         .site-card a:hover {
-            background-color: #c2185b;
+            background-color: #bf360c;
             transform: translateY(-2px);
         }
         
@@ -188,25 +188,25 @@
 <body>
     <header>
         <div class="container">
-            <span class="strawberry-icon">🍓</span>
-            <h1>Do Campo à Mesa: A Jornada do Morango </h1>
-            <p>Tudo sobre o fruto mais vermelho e suculento!</p>
+            <span class="food-icon">🍽️</span>
+            <h1>Fome no Brasil: Um Problema Social Urgente</h1>
+            <p>Informações, dados e como ajudar no combate à fome</p>
         </div>
     </header>
     
     <div class="container">
         <div class="intro">
-            <h2>Conheça o Morango</h2>
-            <p>O morango (Fragaria × ananassa) é uma fruta vermelha, suculenta e aromática, muito apreciada em todo o mundo. Originário da Europa, o morango moderno é resultado de cruzamentos entre espécies americanas e europeias no século XVIII.</p>
+            <h2>A Crise da Fome no Brasil</h2>
+            <p>A fome é um dos problemas sociais mais graves do Brasil, afetando milhões de pessoas em todo o país. Segundo dados do IBGE, em 2022, mais de 33 milhões de brasileiros viviam em situação de insegurança alimentar grave.</p>
             
-            <p>Rico em vitamina C, flavonoides e antioxidantes, o morango oferece diversos benefícios à saúde, incluindo fortalecimento do sistema imunológico e ação anti-inflamatória. Além disso, é versátil na culinária, podendo ser consumido fresco, em doces, geleias, sorvetes e diversas outras preparações.</p>
+            <p>As causas da fome são complexas e incluem desigualdade social, desemprego, inflação nos preços dos alimentos e má distribuição de renda. A pandemia de COVID-19 agravou ainda mais esse cenário, deixando muitas famílias sem acesso a alimentos básicos.</p>
             
-            <p>No Brasil, os maiores produtores estão nas regiões sul e sudeste, com destaque para Minas Gerais, Rio Grande do Sul e São Paulo. A colheita ocorre principalmente entre agosto e novembro.</p>
+            <p>Organizações não governamentais, movimentos sociais e iniciativas locais trabalham diariamente para combater a fome, mas o problema exige políticas públicas efetivas e a participação de toda a sociedade.</p>
         </div>
         
         <div class="terminal">
             <div class="terminal-header">
-                <div class="terminal-title">Terminal de Navegação - Morangos</div>
+                <div class="terminal-title">Terminal de Informações - Fome no Brasil</div>
                 <div class="terminal-controls">
                     <span class="close"></span>
                     <span class="minimize"></span>
@@ -214,16 +214,16 @@
                 </div>
             </div>
             <div class="terminal-body" id="terminal-output">
-                <div>Bem-vindo ao Terminal de Navegação sobre Morangos!</div>
+                <div>Bem-vindo ao Terminal de Informações sobre Fome no Brasil!</div>
                 <div>Digite um dos seguintes comandos para acessar informações:</div>
                 <br>
-                <div>- <strong>cultivo</strong>: Técnicas de cultivo de morangos</div>
-                <div>- <strong>receitas</strong>: Receitas deliciosas com morango</div>
-                <div>- <strong>beneficios</strong>: Benefícios para a saúde</div>
-                <div>- <strong>variedades</strong>: Tipos de morango</div>
+                <div>- <strong>dados</strong>: Estatísticas e números sobre fome</div>
+                <div>- <strong>causas</strong>: Principais causas da fome</div>
+                <div>- <strong>solucoes</strong>: Possíveis soluções</div>
+                <div>- <strong>ajudar</strong>: Como você pode ajudar</div>
                 <div>- <strong>limpar</strong>: Limpa o terminal</div>
                 <br>
-                <div>Exemplo: <span style="color: #69F0AE;">></span> receitas</div>
+                <div>Exemplo: <span style="color: #69F0AE;">></span> dados</div>
             </div>
             <div class="command-line">
                 <span class="prompt">></span>
@@ -231,57 +231,71 @@
             </div>
         </div>
         
-        <div class="site-card" id="cultivo-card">
-            <h3>Técnicas de Cultivo de Morango</h3>
-            <p>Aprenda as melhores práticas para cultivar morangos em casa ou em escala comercial. O cultivo de morangos requer cuidados específicos com solo, irrigação e controle de pragas.</p>
-            <p>Os morangos preferem solos bem drenados, ricos em matéria orgânica, com pH entre 5,5 e 6,5. A exposição solar deve ser de pelo menos 6 horas diárias.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Acesse a Embrapa Morango</a>
+        <div class="site-card" id="dados-card">
+            <h3>Dados sobre Fome no Brasil</h3>
+            <p>Segundo o Inquérito Nacional sobre Insegurança Alimentar no Contexto da Pandemia da Covid-19 no Brasil (2022):</p>
+            <p>- 33,1 milhões de pessoas passam fome no Brasil</p>
+            <p>- 125,2 milhões de brasileiros vivem com algum grau de insegurança alimentar</p>
+            <p>- 58,7% da população brasileira convive com a insegurança alimentar</p>
+            <a href="https://www.youtube.com/watch?v=2k4eHRQmX2Y" target="_blank">Assista no YouTube: Dados sobre fome</a>
         </div>
         
-        <div class="site-card" id="receitas-card">
-            <h3>Receitas com Morango</h3>
-            <p>Descubra receitas incríveis para aproveitar os morangos na culinária. Desde sobremesas clássicas até pratos inovadores que combinam doce e salgado.</p>
-            <p>Algumas sugestões: torta de morango, mousse, geleia, sorvete, salada com folhas verdes, molho agridoce para carnes e drinks refrescantes.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Receitas no TudoGostoso</a>
+        <div class="site-card" id="causas-card">
+            <h3>Principais Causas da Fome</h3>
+            <p>A fome no Brasil tem múltiplas causas interligadas:</p>
+            <p>- Desigualdade social e concentração de renda</p>
+            <p>- Desemprego e trabalho informal</p>
+            <p>- Inflação no preço dos alimentos</p>
+            <p>- Má distribuição de terras e alimentos</p>
+            <p>- Falta de políticas públicas eficientes</p>
+            <a href="https://www.youtube.com/watch?v=1aT-1sX6mJ0" target="_blank">Assista no YouTube: Causas da fome</a>
         </div>
         
-        <div class="site-card" id="beneficios-card">
-            <h3>Benefícios do Morango para a Saúde</h3>
-            <p>Os morangos são ricos em nutrientes essenciais e compostos antioxidantes que trazem diversos benefícios à saúde.</p>
-            <p>Principais benefícios: melhora a saúde cardiovascular, fortalece o sistema imunológico, ajuda no controle do açúcar no sangue, possui ação anti-inflamatória e contribui para a saúde da pele.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Benefícios na Healthline</a>
+        <div class="site-card" id="solucoes-card">
+            <h3>Possíveis Soluções para a Fome</h3>
+            <p>Combater a fome exige ações em várias frentes:</p>
+            <p>- Fortalecimento de programas sociais como o Bolsa Família</p>
+            <p>- Apoio à agricultura familiar</p>
+            <p>- Educação alimentar e nutricional</p>
+            <p>- Combate ao desperdício de alimentos</p>
+            <p>- Geração de emprego e renda</p>
+            <a href="https://www.youtube.com/watch?v=3XQ4kQ5l7d4" target="_blank">Assista no YouTube: Soluções para a fome</a>
         </div>
         
-        <div class="site-card" id="variedades-card">
-            <h3>Variedades de Morango</h3>
-            <p>Existem diversas variedades de morango, cada uma com características específicas de sabor, tamanho, cor e resistência.</p>
-            <p>Algumas variedades populares: Albion (doce e firme), Camarosa (grande e vermelho intenso), Festival (sabor equilibrado), Oso Grande (muito grande), San Andreas (longa vida útil).</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Variedades no Radar Agrícola</a>
+        <div class="site-card" id="ajudar-card">
+            <h3>Como Você Pode Ajudar</h3>
+            <p>Existem várias formas de contribuir no combate à fome:</p>
+            <p>- Doe para bancos de alimentos e instituições</p>
+            <p>- Participe de mutirões de arrecadação</p>
+            <p>- Voluntarie-se em cozinhas comunitárias</p>
+            <p>- Conscientize outras pessoas sobre o problema</p>
+            <p>- Apoie políticas públicas contra a fome</p>
+            <a href="https://www.youtube.com/watch?v=5Y5XQ8k5r6E" target="_blank">Assista no YouTube: Como ajudar</a>
         </div>
     </div>
     
     <footer>
-        <p>© 2025 Do Campo à Mesa: A Jornada do Morango | Todos os direitos reservados à Isa22 & professor-rafael</p>
+        <p>© 2023 Fome no Brasil: Um Problema Social Urgente | Conscientização e Ação</p>
     </footer>
 
     <script>
         // Comandos disponíveis
         const commands = {
-            'cultivo': {
-                card: 'cultivo-card',
-                message: 'Abrindo informações sobre cultivo de morangos...'
+            'dados': {
+                card: 'dados-card',
+                message: 'Carregando dados e estatísticas sobre fome no Brasil...'
             },
-            'receitas': {
-                card: 'receitas-card',
-                message: 'Carregando receitas deliciosas com morango...'
+            'causas': {
+                card: 'causas-card',
+                message: 'Abrindo informações sobre as causas da fome...'
             },
-            'beneficios': {
-                card: 'beneficios-card',
-                message: 'Mostrando benefícios do morango para saúde...'
+            'solucoes': {
+                card: 'solucoes-card',
+                message: 'Mostrando possíveis soluções para o problema...'
             },
-            'variedades': {
-                card: 'variedades-card',
-                message: 'Exibindo diferentes variedades de morango...'
+            'ajudar': {
+                card: 'ajudar-card',
+                message: 'Exibindo formas de ajudar no combate à fome...'
             },
             'limpar': {
                 action: function() {
@@ -292,10 +306,10 @@
             'ajuda': {
                 action: function() {
                     addTerminalOutput('<div>Comandos disponíveis:</div>');
-                    addTerminalOutput('<div>- cultivo: Técnicas de cultivo</div>');
-                    addTerminalOutput('<div>- receitas: Receitas com morango</div>');
-                    addTerminalOutput('<div>- beneficios: Benefícios para saúde</div>');
-                    addTerminalOutput('<div>- variedades: Tipos de morango</div>');
+                    addTerminalOutput('<div>- dados: Estatísticas sobre fome</div>');
+                    addTerminalOutput('<div>- causas: Causas da fome</div>');
+                    addTerminalOutput('<div>- solucoes: Possíveis soluções</div>');
+                    addTerminalOutput('<div>- ajudar: Como você pode ajudar</div>');
                     addTerminalOutput('<div>- limpar: Limpa o terminal</div>');
                 }
             }
@@ -346,8 +360,8 @@
         };
     </script>
 </body>
-
 </html>
+
 
 
 
